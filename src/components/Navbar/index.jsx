@@ -8,17 +8,17 @@ export default function Navbar() {
 
         <ul className="flex gap-8 text-sm text-gray-300">
           <li>
-            <a href="#inicio" className="hover:text-white transition">
+            <a href="#inicio" className="hover:text-[#ff6aa2] transition">
               Início
             </a>
           </li>
           <li>
-            <a href="#projetos" className="hover:text-white transition">
+            <a href="#projetos" className="hover:text-[#ff6aa2] transition">
               Projetos
             </a>
           </li>
           <li>
-            <a href="#contato" className="hover:text-white transition">
+            <a href="#contato" className="hover:text-[#ff6aa2] transition">
               Contato
             </a>
           </li>
