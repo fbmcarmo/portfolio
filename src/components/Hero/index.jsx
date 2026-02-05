@@ -5,24 +5,25 @@ export default function Hero() {
   return (
     <section
       id="inicio"
-      className="min-h-screen flex flex-col justify-center"
+      className="pt-24 min-h-screen flex flex-col justify-center px-6"
     >
-      {/* CONTEÚDO PRINCIPAL */}
-      <div className="flex flex-col md:flex-row items-center justify-between gap-12">
+      <div className="flex flex-col-reverse md:flex-row items-center justify-between gap-12 max-w-6xl mx-auto">
+        {/* TEXTO */}
         <div className="max-w-xl text-center md:text-left">
-          <span className="text-[#ff6aa2]">Bruno Moreira</span>
+          <span className="text-[#ff6aa2] text-sm tracking-wide">
+            Bruno Moreira
+          </span>
 
-          <h1 className="text-4xl md:text-5xl font-bold mt-4 leading-tight">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mt-4 leading-tight">
             Seja bem-vindo(a)<br />
             <span className="text-[#ff6aa2]">Eu sou Bruno Moreira</span>
           </h1>
 
-          <p className="text-gray-400 mt-6">
+          <p className="text-gray-400 mt-6 text-sm sm:text-base">
             Desenvolvedor fullstack focado em criar interfaces modernas
             e experiências digitais incríveis.
           </p>
 
-          {/* DOWNLOAD CV */}
           <a
             href="/bruno-moreira-cv.pdf"
             download
@@ -33,7 +34,7 @@ export default function Hero() {
         </div>
 
         {/* FOTO */}
-        <div className="relative w-84 h-84 rounded-full overflow-hidden bg-linear-to-b from-[#ff6aa2] to-pink-400">
+        <div className="relative w-48 h-48 sm:w-64 sm:h-64 md:w-80 md:h-80 rounded-full overflow-hidden bg-linear-to-b from-[#ff6aa2] to-pink-400 shrink-0">
           <Image
             src="/bruno.jpg"
             alt="Foto de Bruno Moreira"
@@ -44,8 +45,7 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* SOCIAL LINKS CENTRALIZADOS */}
-      <div className="mt-16 flex justify-center">
+      <div className="mt-12 flex justify-center">
         <SocialLinks />
       </div>
     </section>
