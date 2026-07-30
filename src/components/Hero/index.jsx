@@ -36,7 +36,7 @@ export default function Hero() {
         {/* FOTO */}
         <div className="relative w-48 h-48 sm:w-64 sm:h-64 md:w-80 md:h-80 rounded-full overflow-hidden bg-linear-to-b from-[#ff6aa2] to-pink-400 shrink-0">
           <Image
-            src="/bruno.jpg"
+            src="/Bruno_Moreira.png"
             alt="Foto de Bruno Moreira"
             fill
             className="object-cover"
