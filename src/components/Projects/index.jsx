@@ -6,11 +6,11 @@ const projects = [
     url: "https://sebao-online.vercel.app/",
     image: "/sebaoonline.png",
     frontend: {
-      stack: "React • Next.js • Tailwind CSS",
+      stack: "Javascript • React • Next.js • Tailwind CSS",
       readme: "https://github.com/fbmcarmo/sebao-online",
     },
     backend: {
-      stack: "Node.js • Express.js • PostgreSQL",
+      stack: "Javascript • Node.js • Express.js • PostgreSQL",
       readme: "https://github.com/fbmcarmo/api-sebao-online",
     },
   },
