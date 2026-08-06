@@ -1,23 +1,25 @@
 import {
-  FaHtml5,
-  FaCss3Alt,
   FaJs,
   FaReact,
   FaNodeJs,
 } from "react-icons/fa"
-import { SiPostgresql } from "react-icons/si"
+import { 
+  SiDocker,
+  SiTypescript,
+  SiPostgresql, 
+} from "react-icons/si"
 
 const skills = [
   {
-    name: "HTML",
-    icon: <FaHtml5 className="text-orange-500" />,
+    name: "Docker",
+    icon: <SiDocker className="text-[#2496ED]" />,
   },
   {
-    name: "CSS",
-    icon: <FaCss3Alt className="text-blue-500" />,
+    name: "Typescript",
+    icon: <SiTypescript className="text-[#3178C6]" />,
   },
   {
-    name: "JavaScript",
+    name: "Javascript",
     icon: <FaJs className="text-yellow-400" />,
   },
   {
@@ -50,7 +52,7 @@ export default function Skills() {
             <p className="font-semibold">{skill.name}</p>
 
             <span className="text-xs text-gray-400">
-              4 anos experiência
+              5 anos experiência
             </span>
           </div>
         ))}
