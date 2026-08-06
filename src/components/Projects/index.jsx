@@ -19,11 +19,11 @@ const projects = [
     url: "https://painel-controle-vendedor.vercel.app/",
     image: "/painelvendedor.png",
     frontend: {
-      stack: "React • Next.js • Tailwind CSS",
+      stack: "Javascript • React • Next.js • Tailwind CSS",
       readme: "https://github.com/fbmcarmo/painel-controle-vendedor",
     },
     backend: {
-      stack: "Node.js • Express.js • PostgreSQL",
+      stack: "Javascript • Node.js • Express.js • PostgreSQL",
       readme: "https://github.com/fbmcarmo/api-painel-controle-vendedor",
     },
   },
