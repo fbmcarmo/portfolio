@@ -54,7 +54,7 @@ export default function Skills() {
             <p className="font-semibold">{skill.name}</p>
 
             <span className="text-xs text-gray-400">
-              5 anos experiência
+              5 anos de experiência
             </span>
           </div>
         ))}
