@@ -25,11 +25,11 @@ const skills = [
     icon: <FaJs className={`${iconClass} text-yellow-400`} />,
   },
   {
-    name: "React",
+    name: "React.js",
     icon: <FaReact className={`${iconClass} text-cyan-400`} />,
   },
   {
-    name: "Node",
+    name: "Node.js",
     icon: <FaNodeJs className={`${iconClass} text-green-500`} />,
   },
   {
