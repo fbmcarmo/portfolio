@@ -9,7 +9,7 @@ import {
   SiPostgresql, 
 } from "react-icons/si"
 
-const iconClass = "w-10 h-10";
+const iconClass = "w-12 h-12";
 
 const skills = [
   {
