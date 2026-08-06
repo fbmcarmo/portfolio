@@ -1,40 +1,168 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# 🚀 Portfólio | Bruno Moreira
 
-## Getting Started
+Este repositório contém o código-fonte do meu portfólio pessoal, desenvolvido para apresentar minha trajetória profissional, habilidades técnicas, certificações e principais projetos como **Engenheiro de Software Full Stack**.
 
-First, run the development server:
+## 🌐 Acesse o Portfólio
+
+🔗 **Website:** https://portfolio-five-vert-gz96hmp72g.vercel.app/
+
+---
+
+## 📸 Preview
+
+O portfólio apresenta:
+
+* 👋 Apresentação profissional
+* 💼 Projetos desenvolvidos
+* 🛠️ Principais tecnologias
+* 📜 Certificações
+* 📬 Informações para contato
+* 🔗 Links para GitHub, LinkedIn e currículo
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
+### Frontend
+
+* Next.js
+* React.js
+* JavaScript
+* Tailwind CSS
+* React Icons
+
+### Ferramentas
+
+* Git
+* GitHub
+* Vercel
+
+---
+
+## 📂 Estrutura do Projeto
+
+```text
+.
+├── components/
+├── pages/
+├── public/
+├── styles/
+├── .gitignore
+├── jsconfig.json
+├── next.config.js
+├── package.json
+└── README.md
+```
+
+---
+
+## ▶️ Executando o projeto
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/fbmcarmo/portfolio.git
+```
+
+Entre na pasta:
+
+```bash
+cd portfolio
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+Execute o servidor de desenvolvimento:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+A aplicação estará disponível em:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+---
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+## 📦 Build para Produção
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+```
 
-## Learn More
+Para iniciar a versão de produção:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm start
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## ✨ Funcionalidades
 
-## Deploy on Vercel
+* Design moderno e responsivo
+* Navegação suave entre seções
+* Apresentação dos projetos
+* Links para os repositórios do GitHub
+* Links para demonstrações online
+* Download do currículo
+* Integração com redes sociais
+* Interface otimizada para dispositivos móveis
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+## 📁 Projetos em Destaque
+
+### 📚 Sebão Online
+
+Marketplace para compra e venda de livros novos e usados.
+
+**Frontend**
+
+* React.js
+* Next.js
+* Tailwind CSS
+
+**Backend**
+
+* Node.js
+* Express.js
+* PostgreSQL
+
+---
+
+### 🛒 Painel de Controle do Vendedor
+
+Sistema de gerenciamento de produtos para vendedores.
+
+**Frontend**
+
+* React.js
+* Next.js
+* Tailwind CSS
+
+**Backend**
+
+* Node.js
+* Express.js
+* PostgreSQL
+
+---
+
+## 📞 Contato
+
+* **LinkedIn:** https://linkedin.com/in/fbmcarmo
+* **GitHub:** https://github.com/fbmcarmo
+* **E-mail:** [bruno0moreira@gmail.com](mailto:bruno0moreira@gmail.com)
+
+---
+
+## 📄 Licença
+
+Este projeto foi desenvolvido para fins de demonstração profissional e composição de portfólio.
