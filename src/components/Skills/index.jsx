@@ -9,30 +9,32 @@ import {
   SiPostgresql, 
 } from "react-icons/si"
 
+const iconClass = "w-10 h-10";
+
 const skills = [
   {
     name: "Docker",
-    icon: <SiDocker className="text-[#2496ED]" />,
+    icon: <SiDocker className={`${iconClass} "text-[#2496ED]`} />,
   },
   {
     name: "Typescript",
-    icon: <SiTypescript className="text-[#3178C6]" />,
+    icon: <SiTypescript className={`${iconClass} "text-[#3178C6]`} />,
   },
   {
     name: "Javascript",
-    icon: <FaJs className="text-yellow-400" />,
+    icon: <FaJs className={`${iconClass} "text-yellow-400`} />,
   },
   {
     name: "React",
-    icon: <FaReact className="text-cyan-400" />,
+    icon: <FaReact className={`${iconClass}"text-cyan-400`} />,
   },
   {
     name: "Node",
-    icon: <FaNodeJs className="text-green-500" />,
+    icon: <FaNodeJs className={`${iconClass} "text-green-500`} />,
   },
   {
     name: "PostgreSQL",
-    icon: <SiPostgresql className="text-blue-400" />,
+    icon: <SiPostgresql className={`${iconClass} "text-blue-400`} />,
   },
 ]
 
